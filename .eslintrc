@@ -7,5 +7,9 @@
   ],
   "parserOptions": {
     "ecmaVersion": 8
+  },
+  //https://stackoverflow.com/questions/37826449/expected-linebreaks-to-be-lf-but-found-crlf-linebreak-style
+"rules": {
+    "linebreak-style":0
   }
 }

@@ -1,6 +1,14 @@
 {
   "name": "md-links",
   "version": "0.1.0",
+  "description": "md-links...",
+  "author": {
+    "name": "Marjorie Lagos Rivera"
+  },
+  "main": "./api/index.js",
+  "bin": {
+    "md-links": "./cli.js"
+  },
   "scripts": {
     "test": "jest",
     "eslint": "eslint --ext .js ./ test/"
@@ -11,5 +19,9 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^24.1.0"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "marked": "^2.0.6"
   }
 }

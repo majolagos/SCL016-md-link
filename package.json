@@ -1,7 +1,7 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "description": "md-links...",
+  "description": "md-links",
   "author": {
     "name": "Marjorie Lagos Rivera"
   },
@@ -21,6 +21,7 @@
     "eslint-plugin-jest": "^24.1.0"
   },
   "dependencies": {
+    "commander": "^7.2.0",
     "fetch": "^1.1.0",
     "marked": "^2.0.6"
   }

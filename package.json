@@ -1,13 +1,11 @@
 {
-  "name": "md-links",
-  "version": "0.1.0",
-  "description": "md-links",
-  "author": {
-    "name": "Marjorie Lagos Rivera"
-  },
+  "name": "md-link-majolagos",
+  "version": "1.0.0",
+  "description": "md-links lab scl016",
+  "author": "Marjorie Lagos Rivera",
   "main": "./api/index.js",
   "bin": {
-    "md-links": "./cli.js"
+    "md-links": "cli.js"
   },
   "scripts": {
     "test": "jest",
@@ -24,5 +22,18 @@
     "commander": "^7.2.0",
     "fetch": "^1.1.0",
     "marked": "^2.0.6"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majolagos/SCL016-md-link.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majolagos/SCL016-md-link/issues"
+  },
+  "homepage": "https://github.com/majolagos/SCL016-md-link#readme"
 }

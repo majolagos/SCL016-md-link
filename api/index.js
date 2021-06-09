@@ -44,7 +44,7 @@ module.exports = mdLinks = (pathRecived, opts) => {
           }
         })
         .catch((err => {
-          reject(err);
+          reject('error');
         }))
     } else {
       console.log('ruta ingresada no valida');

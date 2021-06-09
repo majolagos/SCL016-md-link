@@ -100,8 +100,7 @@ const validateUrl = (url) => {
 const addPropertyStatus = (object) => {
   return new Promise((resolve, reject) => {
     let code = ''
-    let status = ''
-    const validate = validateUrl(object.href).then((status) => {
+   validateUrl(object.href).then((status) => {
       if (status === 200) {
         code = 'ok';
       } else {
